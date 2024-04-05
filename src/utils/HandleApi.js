@@ -15,7 +15,7 @@ const getAllPass = (setForm) => {
 
 
 const setPass = (data) => {
-    axios.post(`${baseURL}/forms`, data).then((res) => {
+    axios.post(`${baseURL}`, data).then((res) => {
         console.log("data sent successfully: ", res);
     }).catch((err) => {
         console.log("Failed to save data into database!");
@@ -23,7 +23,7 @@ const setPass = (data) => {
 }
 
 const updatePass = (id, newData) => {
-    axios.put(`${baseURL}/forms/${id}`, newData)
+    axios.put(`${baseURL}/${id}`, newData)
         .then((res) => {
             console.log("Update successfully",res);
         })
@@ -33,7 +33,7 @@ const updatePass = (id, newData) => {
 }
 
 const deletePass = (id) => {
-    axios.delete(`${baseURL}/forms/${id}`)
+    axios.delete(`${baseURL}/${id}`)
         .then((res) => {
             console.log("delete successfully",res);
         })
