@@ -1,8 +1,4 @@
-# React + Vite
+# Full stack Password Manager Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Password Manager project by YashG0 is a web application built using React for the frontend and Express.js for the backend. It allows users to securely store and manage their passwords. The frontend provides a user-friendly interface for adding, updating, and deleting passwords, while the backend handles the storage and retrieval of password data. The application likely uses encryption techniques to ensure the security of stored passwords, providing users with a safe and convenient way to manage their passwords online.
+- backend code - https://github.com/yashG0/password-manageer-backend
